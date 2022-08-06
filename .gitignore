@@ -1,0 +1,12 @@
+# Ignore all .a files
+*.a
+
+# but track all lib.a, even you ignore them
+!lib.a
+
+# 只忽略当前目录下TODO文件， 而不忽略 subdir/TODO
+/TODO
+
+# 忽略当前目录下build的文件夹
+build/
+
