@@ -1,11 +1,13 @@
 # Ignore all .a files
 *.a
+index.css
 
 # but track all lib.a, even you ignore them
 !lib.a
 
 # 只忽略当前目录下TODO文件， 而不忽略 subdir/TODO
 /TODO
+/test
 
 # 忽略当前目录下build的文件夹
 build/
